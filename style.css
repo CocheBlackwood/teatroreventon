@@ -6,7 +6,7 @@
 
 body {
     overflow-x: hidden;
-    font-family: "Roboto Slab","Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-family: 'Bebas Neue', sans-serif;
 }
 
 .text-muted {
@@ -35,7 +35,7 @@ a.active {
 }
 
 a {
-    color: #1ee2e7;
+    color: #c65457;
 }
 
 a:hover,
@@ -52,7 +52,7 @@ h4,
 h5,
 h6 {
     text-transform: uppercase;
-    font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-family: 'Bebas Neue', sans-serif;
     font-weight: 700;
 }
 
@@ -71,7 +71,7 @@ h6 {
 .btn-primary {
     border-color: #1ee2e7;
     text-transform: uppercase;
-    font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-family: 'Bebas Neue', sans-serif;
     font-weight: 700;
     color: #fff;
     background-color: #1ee2e7;
@@ -122,7 +122,7 @@ fieldset[disabled] .btn-primary.active {
     border-color: #1ee2e7;
     border-radius: 3px;
     text-transform: uppercase;
-    font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-family: 'Bebas Neue', sans-serif;
     font-size: 18px;
     font-weight: 700;
     color: #fff;
@@ -191,8 +191,8 @@ fieldset[disabled] .btn-xl.active {
 }
 
 .navbar-default .navbar-toggle {
-    border-color: #1ee2e7;
-    background-color: #1ee2e7;
+    border-color: #c65457;
+    background-color: #e5c0ad;
 }
 
 .navbar-default .navbar-toggle .icon-bar {
@@ -201,12 +201,12 @@ fieldset[disabled] .btn-xl.active {
 
 .navbar-default .navbar-toggle:hover,
 .navbar-default .navbar-toggle:focus {
-    background-color: #1ee2e7;
+    background-color: #c65457;
 }
 
 .navbar-default .nav li a {
     text-transform: uppercase;
-    font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-family: 'Bebas Neue', sans-serif;
     font-weight: 400;
     letter-spacing: 1px;
     color: #fff;
@@ -215,19 +215,19 @@ fieldset[disabled] .btn-xl.active {
 .navbar-default .nav li a:hover,
 .navbar-default .nav li a:focus {
     outline: 0;
-    color: #1ee2e7;
+    color: #c65457;
 }
 
 .navbar-default .navbar-nav>.active>a {
     border-radius: 0;
     color: #fff;
-    background-color: #1ee2e7;
+    background-color: #c65457;
 }
 
 .navbar-default .navbar-nav>.active>a:hover,
 .navbar-default .navbar-nav>.active>a:focus {
     color: #fff;
-    background-color: #17d0d5;
+    background-color: #c65457;
 }
 
 @media(min-width:768px) {
@@ -265,13 +265,13 @@ header {
     text-align: center;
     color: #fff;
     background-attachment: scroll;
-    background-image: url(img/sheng-hu-LEcREeDqi0I-unsplash.webp);
+    background-image: url(https://github.com/CocheBlackwood/teatroreventon/blob/Juantxo/img/Banner%20principal_Mesa%20de%20trabajo%201.png?raw=true);
     background-position: center center;
-    background-repeat: none;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    background-size: cover;
-    -o-background-size: cover;
+    background-repeat: no-repeat;
+    -webkit-background-size: contain;
+    -moz-background-size: contain;
+    background-size: contain;
+    -o-background-size: contain;
 }
 
 header .intro-text {
@@ -281,7 +281,7 @@ header .intro-text {
 
 header .intro-text .intro-lead-in {
     margin-bottom: 25px;
-    font-family: "Droid Serif","Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-family: 'Bebas Neue', sans-serif;
     font-size: 22px;
     font-style: italic;
     line-height: 22px;
@@ -290,7 +290,7 @@ header .intro-text .intro-lead-in {
 header .intro-text .intro-heading {
     margin-bottom: 25px;
     text-transform: uppercase;
-    font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-family: 'Bebas Neue', sans-serif;
     font-size: 50px;
     font-weight: 700;
     line-height: 50px;
@@ -304,7 +304,7 @@ header .intro-text .intro-heading {
 
     header .intro-text .intro-lead-in {
         margin-bottom: 25px;
-        font-family: "Droid Serif","Helvetica Neue",Helvetica,Arial,sans-serif;
+        font-family: 'Bebas Neue', sans-serif;
         font-size: 40px;
         font-style: italic;
         line-height: 40px;
@@ -313,7 +313,7 @@ header .intro-text .intro-heading {
     header .intro-text .intro-heading {
         margin-bottom: 50px;
         text-transform: uppercase;
-        font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
+        font-family: 'Bebas Neue', sans-serif;
         font-size: 75px;
         font-weight: 700;
         line-height: 75px;
@@ -333,7 +333,7 @@ section h2.section-heading {
 section h3.section-subheading {
     margin-bottom: 75px;
     text-transform: none;
-    font-family: "Droid Serif","Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-family: 'Bebas Neue', sans-serif;
     font-size: 16px;
     font-style: italic;
     font-weight: 400;
@@ -408,11 +408,16 @@ section h3.section-subheading {
 #portfolio .portfolio-item .portfolio-caption h4 {
     margin: 0;
     text-transform: none;
+    word-wrap: break-word; /* Permite el ajuste de líneas */
+    overflow: hidden; /* Oculta el desbordamiento */
+    text-overflow: ellipsis; /* Agrega puntos suspensivos al desbordarse */
+    white-space: nowrap; /* Evita que el texto se envuelva */
+    max-width: 100%; /* Asegura que el ancho máximo sea el del contenedor */
 }
 
 #portfolio .portfolio-item .portfolio-caption p {
     margin: 0;
-    font-family: "Droid Serif","Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-family: 'Bebas Neue', sans-serif;
     font-size: 16px;
     font-style: italic;
 }
@@ -493,7 +498,7 @@ section h3.section-subheading {
     border-radius: 100%;
     text-align: center;
     color: #fff;
-    background-color: #1ee2e7;
+    background-color: #c65457;
 }
 
 .timeline>li .timeline-image h4 {
@@ -637,7 +642,7 @@ section h3.section-subheading {
     border: 7px solid #fff;
 }
 
-.team-member h4 {
+.team-member 5 {
     margin-top: 25px;
     margin-bottom: 0;
     text-transform: none;
@@ -683,28 +688,28 @@ section#contact .form-control:focus {
 
 section#contact::-webkit-input-placeholder {
     text-transform: uppercase;
-    font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-family: 'Bebas Neue', sans-serif;
     font-weight: 700;
     color: #bbb;
 }
 
 section#contact:-moz-placeholder {
     text-transform: uppercase;
-    font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-family: 'Bebas Neue', sans-serif;
     font-weight: 700;
     color: #bbb;
 }
 
 section#contact::-moz-placeholder {
     text-transform: uppercase;
-    font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-family: 'Bebas Neue', sans-serif;
     font-weight: 700;
     color: #bbb;
 }
 
 section#contact:-ms-input-placeholder {
     text-transform: uppercase;
-    font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-family: 'Bebas Neue', sans-serif;
     font-weight: 700;
     color: #bbb;
 }
@@ -721,7 +726,7 @@ footer {
 footer span.copyright {
     text-transform: uppercase;
     text-transform: none;
-    font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-family: 'Bebas Neue', sans-serif;
     line-height: 40px;
 }
 
@@ -729,7 +734,7 @@ footer ul.quicklinks {
     margin-bottom: 0;
     text-transform: uppercase;
     text-transform: none;
-    font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-family: 'Bebas Neue', sans-serif;
     line-height: 40px;
 }
 
@@ -787,7 +792,7 @@ ul.social-buttons li a:active {
 
 .portfolio-modal .modal-content p.item-intro {
     margin: 20px 0 30px;
-    font-family: "Droid Serif","Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-family: 'Bebas Neue', sans-serif;
     font-size: 16px;
     font-style: italic;
 }
@@ -856,4 +861,88 @@ img::-moz-selection {
 
 body {
     webkit-tap-highlight-color: #1ee2e7;
+}
+/*logo*/
+    .navbar-brand {
+        display: flex;
+        align-items: center;
+    }
+
+    .logo-img {
+        height: auto;
+        max-height: 80px; /* Adjust this value as needed */
+        width: auto;
+        max-width: 100%; /* Ensures the logo doesn't exceed the navbar's width */
+    }
+
+    @media (max-width: 768px) {
+        .logo-img {
+            max-height: 40px; /* Adjust this value for smaller screens */
+        }
+    }
+
+/*imagenes de cartelera*/
+/* Contenedor del ícono para que sea un rectángulo */
+.image-container {
+    position: relative;
+    display: inline-block;
+    width: 100%;
+    padding-bottom: 75%; /* Ajusta esto para mantener la relación de aspecto deseada */
+    overflow: hidden;
+    margin-bottom: 20px; /* Ajusta el margen según sea necesario */
+}
+
+/* Imagen dentro del contenedor */
+.img-icon {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: contain; /* Asegura que la imagen cubra el área del contenedor sin distorsión */
+    display: block;
+}
+
+/* Ajustes de la fila */
+.text-center .col-md-4 {
+    margin-bottom: 30px; /* Espaciado entre las columnas */
+}
+
+/*----------imagenes de personajes--------------*/
+.timeline-image {
+    position: relative;
+    z-index: 1; /* Mantiene el círculo en el fondo */
+    width: 150px; /* Ajusta según el tamaño del círculo */
+    height: 150px; /* Asegúrate de que el círculo sea un cuadrado */
+}
+
+.timeline-image .img-circle {
+    z-index: 1;
+    width: 100%; /* Se asegura de que la imagen llena el círculo */
+    height: 100%;
+    object-fit: cover; /* Asegura que la imagen dentro del círculo no se deforme */
+}
+
+.timeline-image .img-overlay {
+    position: absolute;
+    top: -10%;
+    left: 50%;
+    transform: translateX(-50%);
+    max-width: 400%; /* Asegura que la imagen no sea demasiado grande */
+    max-height: 400%; /* Controla la altura máxima de la imagen sobrepuesta */
+    width: auto; /* Mantiene la proporción de la imagen */
+    height: auto;
+    z-index: 2; /* Coloca la imagen sobre el círculo */
+}
+/* Estilo para la imagen más grande */
+.timeline-image.large-image {
+    width: 250px; /* Tamaño más grande */
+    height: 250px;
+    background-color: #fff;
+}
+
+.timeline-image.large-image .img-overlay {
+    max-width: 500%; /* Ajusta según el tamaño deseado */
+    max-height: 500%;
+    background-color: #fff;
 }
